@@ -1,0 +1,33 @@
+
+
+@font-face {
+    font-family: 'smart4ds';
+    src: url('smart4ds.eot');
+    src: url('smart4ds.eot?#iefix') format('embedded-opentype'), url('smart4ds.woff') format('woff'), url('smart4ds.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'smart4dsTitles';
+    src: url('smart4ds2.eot');
+    src: url('smart4ds2.eot?#iefix') format('embedded-opentype'), url('smart4ds2.woff') format('woff'), url('smart4ds2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: smart4ds, sans-serif !important;
+}
+
+.navbar .nav > li > a, h1, h2, h3, h4, .box-bottom a, .site-top a, .btn, .contacts strong, #inner-headline ul.breadcrumb li {
+    font-family: smart4dsTitles, sans-serif !important;
+}
+
+header ul.nav li ul li a {
+    font-family: smart4dsTitles, sans-serif !important;
+}
+
+.field-row .col-lg-3 {
+    font-family: smart4dsTitles, sans-serif !important;
+}
